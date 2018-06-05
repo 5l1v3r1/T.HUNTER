@@ -28,12 +28,12 @@ read enter
 exit
 }
 
-echo "================================================"     
-echo "=Author : ./Droid_X_ISH&Tn.Chaplin&Kuro Cyber  =" 
-echo "=Team   : Indonesian Security Hunter           ="
-echo "=Kontak : 089606402413                         ="
-echo "=Date   :05-06-2018                            ="
-echo "================================================"
+echo -e "================================================"     
+echo -e "=Author : ./Droid_X_ISH&Tn.Chaplin&Kuro Cyber  =" 
+echo -e "=Team   : Indonesian Security Hunter           ="
+echo -e "=Kontak : 089606402413                         ="
+echo -e "=Date   :05-06-2018                            ="
+echo -e "================================================"
 echo ""
 echo -e $blue" 01) Red Hawk"
 echo -e $yellow" 02) D-Tect"
