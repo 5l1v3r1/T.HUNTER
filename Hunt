@@ -1,5 +1,5 @@
 #!/data/data/com.termux/files/usr/bin/bash
-# Auto Install Tools v.2.1
+# Auto gelud
 # coded By ./Droid
 Clear
 
@@ -18,23 +18,19 @@ yellow='\e[1;33m'
 trap ctrl_c INT
 ctrl_c() {
 clear
-echo -e $red"[#]> (Ctrl + C ) Detected, Trying To Exit ... "
+echo -e $gold"[#]> (Ctrl + C ) Detected, Trying To Exit ... "
 sleep 1
 echo ""
-echo -e $green"[#]> Terima kasih sudah make tools saya ... "
+echo -e $blue"[#]> semoga bermanfaat "
 sleep 1
 echo ""
-echo -e $white"[#]> Mr.Cakil Wuzz Here ... "
 read enter
 exit
 }
 
-echo -e $red"           __  ___     _____     __    _ __"
-echo -e $red"          /  |/  /___ / ___/__ _/ /__ (_) /"
-echo -e $white"         / /|_/ / __// /__/  _ /   _// / / "
-echo -e $white"        /_/  /_/_/ (_)___/\_,_/_/\_\/_/_/  "
 echo -e $red"          **********************************************"
 echo -e $blue"         =author:./Droid_X_ISH&Tn.Chaplin             ="
+echo -e $green"        =Team  :Indonesian Security Hunter           ="
 echo -e $red"          =kontak:089606402413                         ="
 echo -e $pink"         =Date  :06-06-2018                           ="
 echo -e $white"        **********************************************"
@@ -268,4 +264,15 @@ pkg install git
 git clone https://github.com/cyweb/hammer
 cd ~/
 echo -e $red" guud "
+fi
+
+if [ $act = 00 ] || [ $act = 00 ]
+then
+echo -e $green" thanks udah mau nyoba "
+sleep 1
+echo -e $yellow" ISH was here "
+sleep 1
+echo -e $gold" mungkin agak sakit.... "
+sleep 1
+exit
 fi
