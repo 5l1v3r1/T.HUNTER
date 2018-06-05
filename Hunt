@@ -2,7 +2,7 @@
 # Auto gelud
 # coded By ./Droid
 # Bersihkan Layar
-Clear
+clear
 
 blue='\e[0;34'
 cyan='\e[0;36m'
