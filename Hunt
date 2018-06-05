@@ -11,7 +11,7 @@ lightgreen='\e[1;32m'
 white='\e[1;37m'
 red='\e[1;31m'
 yellow='\e[1;33m'
-
+toilet -f big -F gay "T.HUNTER" | lolcat
 ###################################################
 # CTRL C
 ###################################################
@@ -27,15 +27,13 @@ echo ""
 read enter
 exit
 }
-toilet -f big -F gay "T.HUNTER" | lolcat
 echo "" 
-echo "=========================================================="     
-echo "\033[32;1m=Author : ./Droid_X_ISH&Tn.Chaplin&Kuro Cyber  =" 
-echo "\033[35;1m=Team   : Indonesian Security Hunter           ="
-echo "\033[33;1m=Kontak :  089606402413                        ="
-echo "\033[31;1m=Date   :05-06-2018                            ="
-echo "=========================================================="
-sleep 1
+echo "================================================"     
+echo "=Author : ./Droid_X_ISH&Tn.Chaplin&Kuro Cyber  =" 
+echo "=Team   : Indonesian Security Hunter           ="
+echo "=Kontak : 089606402413                         ="
+echo "=Date   :05-06-2018                            ="
+echo "================================================"
 echo -e $blue" 01) Red Hawk"
 echo -e $yellow" 02) D-Tect"
 echo -e $green" 03) Hunner"
