@@ -1,6 +1,7 @@
 #!/data/data/com.termux/files/usr/bin/bash
 # Auto gelud
 # coded By ./Droid
+# Bersihkan Layar
 Clear
 
 blue='\e[0;34'
@@ -35,7 +36,7 @@ echo -e $gold"=Kontak : 089606402413                         ="
 echo -e $blue"=Date   :05-06-2018                            ="
 echo -e $gold"================================================"
 echo ""
-echo -e $blue" 01) Red Hawk"
+echo -e $red" 01) Red Hawk"
 echo -e $yellow" 02) D-Tect"
 echo -e $green" 03) Hunner"
 echo -e $black" 04) WPScan"
