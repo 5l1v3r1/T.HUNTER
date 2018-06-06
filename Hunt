@@ -310,8 +310,12 @@ then
 clear
 sleep 1
 apt update&&apt upgrade
+apt install python2
 apt install git
-git clone https://github.com/XG77Z
+git clone https://github.com/XG77Z10/Google-Dork
+pip2 install termcolor
+echo -e $orange" kurangi bokep "
+fi
 
 if [ $act = 00 ] || [ $act = 00 ]
 then
