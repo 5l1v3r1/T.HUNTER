@@ -36,7 +36,7 @@ echo -e $gold"=Kontak : 089606402413                         ="
 echo -e $blue"=Date   :05-06-2018                            ="
 echo -e $gold"================================================"
 echo ""
-echo -e $red" 01) Red Hawk"
+echo -e $red" 01) Red Hawk" echo -e $gold" 15) AOCDEFACE
 echo -e $yellow" 02) D-Tect"
 echo -e $green" 03) Hunner"
 echo -e $black" 04) WPScan"
@@ -264,6 +264,18 @@ pkg install git
 git clone https://github.com/cyweb/hammer
 cd ~/
 echo -e $red" guud "
+fi
+
+if [ $act = 15 ] || [ $act = 15 ]
+then
+clear
+echo -e $gold" Installing AOCDEFACE"
+sleep 1
+apt update
+apt upgrade
+apt install git
+git clone https://github.com/Amriez/AOCDEFACE.git
+echo -e $blue" happy deface "
 fi
 
 if [ $act = 00 ] || [ $act = 00 ]
