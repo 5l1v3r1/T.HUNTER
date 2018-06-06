@@ -30,29 +30,33 @@ exit
 }
 
 echo -e $blue"================================================"     
-echo -e $gold"=Author : ./Droid_X_ISH&Tn.Chaplin&Kuro Cyber  =" 
-echo -e $blue"=Team   : Indonesian Security Hunter           ="
-echo -e $gold"=Kontak : 089606402413                         ="
+echo -e $gold"=Author :./Droid_X_ISH&Tn.Chaplin&Kuro Cyber  =" 
+echo -e $blue"=Team   :Indonesian Security Hunter           ="
+echo -e $gold"=Kontak :089606402413                         ="
 echo -e $blue"=Date   :05-06-2018                            ="
 echo -e $gold"================================================"
 echo ""
-echo -e $gold"======================================================"
-echo -e $gold"= 01) Red Hawk"       echo -e $white"= 15) AOCDEFACE ="
-echo -e $gold"= 02) D-Tect"         echo -e $white"=               ="     
-echo -e $gold"= 03) Hunner"         echo -e $white"=               ="
-echo -e $gold"= 04) WPScan"         echo -e $white"=               ="
-echo -e $gold"= 05) Webdav"         echo -e $white"=               ="
-echo -e $gold"= 06) Metasploit"     echo -e $white"=               ="
-echo -e $gold"= 07) Kali Nethunter" echo -e $white"=               ="
-echo -e $gold"= 08) Ubuntu"         echo -e $white"=               ="
-echo -e $gold"= 09) Youtube Dl"     echo -e $white"=               ="
-echo -e $gold"= 10) viSQL "         echo -e $white"=               ="
-echo -e $gold"= 11) WFDroid"        echo -e $white"=               ="
-echo -e $gold"= 12) FBBrute"        echo -e $white"=               ="
-echo -e $gold"= 13) Ngrok"          echo -e $white"=               ="
-echo -e $gold"= 14) Torshammer"     echo -e $white"=               ="
-echo -e $gold"= 00) crotz"          echo -e $white"=               ="
-echo -e $gold"======================================================"
+echo -e $gold"======================================="
+echo -e $gold"= 01) Red Hawk       =     ISH        ="
+echo -e $gold"= 02) D-Tect         = -./Droid X     ="     
+echo -e $gold"= 03) Hunner         = -Tn.Chaplin    ="
+echo -e $gold"= 04) WPScan         = -Kuro Cyber    ="
+echo -e $gold"= 05) Webdav         = -{Mr.6uπdam77  ="
+echo -e $gold"= 06) Metasploit     = -Mr.Percil.com ="
+echo -e $gold"= 07) Kali Nethunter = -Mr.X_XX       ="
+echo -e $gold"= 08) Ubuntu         = -tante port8069="
+echo -e $gold"= 09) Youtube Dl     = -Mr.M1C1N.     ="
+echo -e $gold"= 10) viSQL          = -itsZNine7     ="
+echo -e $gold"= 11) WFDroid        = -Mr.P4T4H H4T¡ ="
+echo -e $gold"= 12) FBBrute        = -Mr.CYRUS      ="
+echo -e $gold"= 13) Ngrok          = -./Gr.F4U24N   ="
+echo -e $gold"= 14) Torshammer     = -Nr.END.       ="
+echo -e $gold"= 15) AOCDEFACE      =                ="
+echo -e $gold"= 16) APF            =                ="
+echo -e $gold"= 17) santet-online. =                ="
+echo -e $gold"= 18) Google-Dork    =                ="
+echo -e $gold"= 00) crotz          =                ="
+echo -e $gold"======================================="
 echo -e $white""
 read -p "[T.HUNTER==> " act;
 
@@ -235,7 +239,7 @@ cd ~/fbbrute
 wget https://pastebin.com/raw/aqMBt2xA -O fbbrute.py
 wget http://override.waper.co/files/password.apk
 mv password.apk password.txt
-chmod 777 fbbrute.py
+ch mod 777 fbbrute.py
 cd ~/
 echo -e $red" cie crotz "
 fi
@@ -279,6 +283,35 @@ apt install git
 git clone https://github.com/Amriez/AOCDEFACE.git
 echo -e $blue" happy deface "
 fi
+
+if [ $act = 16 ] || [ $act = 16 ]
+then
+clear
+echo -e $pink" Installing APF "
+sleep 1
+apt update&&apt upgrade
+apt install git
+git clone https://github.com/Techzindia/admin_penal
+echo -e $pink" selesai tod "
+fi
+
+if [ $act = 17 ] || [ $act = 17 ]
+then
+clear
+sleep 1
+apt update&&apt upgrade
+apt install git
+git clone https://github.com/Gameye98/santet-online
+echo -e $red" sekarang anda dukun "
+fi
+
+if [ $act = 18 ] || [ $acy = 18 ]
+then
+clear
+sleep 1
+apt update&&apt upgrade
+apt install git
+git clone https://github.com/XG77Z
 
 if [ $act = 00 ] || [ $act = 00 ]
 then
